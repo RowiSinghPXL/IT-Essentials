@@ -20,8 +20,6 @@ def berekenen_lidgeld(leeftijd, aantal_kinderen, aansluitingsjaar, inkomen):
     return  lidgeld
 
 
-
-
 naam = input("Naam: ")
 
 while naam != "X" and naam != "x":

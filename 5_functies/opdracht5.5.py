@@ -1,11 +1,15 @@
 def is_even(getal):
     if getal % 2 == 0:
-        print("False")
-    else:
-        print("True")
+        return True
+    else: # zie functie vorige opdracht
+        return False
 
 def is_oneven():
-    is_even(getal)
+    if is_even(getal):
+        return False
+    else:
+        return True
+    #return not is_even(getal) kan korter
 
 getal = int(input("Geef een getal in: "))
-is_even(getal)
+print(is_oneven())

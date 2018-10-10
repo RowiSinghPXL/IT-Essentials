@@ -1,11 +1,18 @@
-def rij_sterren(tekens, aantal, hoogte):
+def teken_lijn(aantal, tekens):
+    for i in range(aantal):
+        print(tekens, end=" ")
+    print()
+
+def teken_rechthoek(aantal, hoogte, tekens):
     for i in range(hoogte):
-        for i in range(aantal):
-            print(tekens, end=" ")
-        print()
+        teken_lijn(aantal, tekens)
 
 
 tekens = input("Geef een teken")
 aantal = int(input("Geef het aantal"))
 hoogte = int(input("Geef de hoogte"))
-rij_sterren(tekens, aantal, hoogte)
+
+teken_rechthoek(aantal, hoogte, tekens)
+
+
+
