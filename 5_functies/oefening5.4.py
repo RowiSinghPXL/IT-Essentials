@@ -1,5 +1,6 @@
 from random import randint
 teller = 0
+#geen return gebruiken en met boolean werken
 def geef_feedback(getal, willekeurig_getal):
     if getal < willekeurig_getal:
         return "Groter"

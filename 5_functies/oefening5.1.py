@@ -1,4 +1,4 @@
-def euro_naar_dollar(waarde_dollar, bedrag_euro):
+def euro_naar_dollar(waarde_dollar, bedrag_euro): #naam veranderen naar wissel
    bedrag_dollar = bedrag_euro * waarde_dollar
    #print("€",bedrag_euro, "is gelijk aan $", bedrag_dollar)
    return bedrag_dollar

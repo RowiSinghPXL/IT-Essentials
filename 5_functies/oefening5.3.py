@@ -21,7 +21,6 @@ def berekenen_lidgeld(leeftijd, aantal_kinderen, aansluitingsjaar, inkomen):
 
 
 naam = input("Naam: ")
-
 while naam != "X" and naam != "x":
     leeftijd = int(input("Leeftijd "))
     aantal_kinderen_ten_laste = int(input("Aantal kinderen ten laste"))
