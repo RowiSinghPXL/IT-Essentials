@@ -14,7 +14,7 @@ willekeurig_getal = randint(1, 10)
 getal = int(input("Geef een getal in"))
 print(geef_feedback(getal, willekeurig_getal))
 
-while teller < 3 and geef_feedback(getal, willekeurig_getal) != "Proficiat, getal geraden":
+while teller < 3 and geef_feedback(getal, willekeurig_getal) != "Proficiat, getal geraden": # feedback beter niet in het hoofdpprogramma
 
     getal = int(input("Geef een getal in"))
     print(geef_feedback(getal, willekeurig_getal))
