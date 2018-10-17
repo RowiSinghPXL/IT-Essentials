@@ -8,3 +8,7 @@ for i in range(len(nieuwe_spreuk)):
         teller += 1
 print("De o komt", teller, "keer voor")
 print(nieuwe_spreuk)
+
+#methode count : tele
+
+print(spreuk.count("o"))
