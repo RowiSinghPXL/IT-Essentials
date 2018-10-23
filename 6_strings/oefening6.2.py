@@ -6,3 +6,5 @@ for j in range(i, -1, -1):
     nieuwe_tekst += tekst[j]
 
 print(nieuwe_tekst)
+
+#print(tekst[::-1]) ==> korter.
