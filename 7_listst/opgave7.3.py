@@ -6,12 +6,14 @@ getallen_lijst = []
 getal = int(input("Geef een getal in:"))
 
 while getal != 0:
-    for i in range(len(getallen_lijst)):
-        if getallen_lijst[i] == getal:
-            print("Dit getal bevindt zich al in de lijst op plaats", i)
-            getallen_lijst.remove(getal)
-            i -= 1
-    getallen_lijst.append(getal)
+
+    if getal in getallen_lijst: #if getal in lijst
+        print("Dit getal bevindt zich al in de lijst op plaats")
+        print("het getal komt al voor op index", getallen_lijst.index(getal))
+
+    else:
+
+        getallen_lijst.append(getal)
     getal = int(input("Geef een getal in:"))
 
 print(getallen_lijst)

@@ -1,3 +1,5 @@
+AANTAL_GETALLEN = 10
+
 getallen_lijst = []
 kleiner_dan_gemiddelde = 0
 som = 0
